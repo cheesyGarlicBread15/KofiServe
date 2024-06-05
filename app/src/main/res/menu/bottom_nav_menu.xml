@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_tickets"
+        android:title="@string/fragment_tickets"
+        android:icon="@drawable/ticket_confirmation"
+        />
+    <item
+        android:id="@+id/nav_items"
+        android:title="@string/fragment_items"
+        android:icon="@drawable/invoice_list"
+        />
+    <item
+        android:id="@+id/nav_sales"
+        android:title="@string/fragment_sales"
+        android:icon="@drawable/cash_register"
+        />
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KofiServe4</string>
+    <string name="fragment_tickets">Tickets</string>
+    <string name="fragment_items">Items</string>
+    <string name="fragment_sales">Sales</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Fragments.AddEditItemFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/fragment_show_tickets_toolbar"
+        android:background="@color/toolbar"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_add_edit_back"
+            android:src="@drawable/arrow_left"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:layout_marginStart="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add/Edit Item"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/fragment_add_edit_back"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_name"
+            android:hint="Name"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_price"
+            android:hint="₱0.00"
+            android:inputType="number"
+            android:layout_below="@id/item_name"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_category"
+            android:hint="Category"
+            android:inputType="text"
+            android:layout_below="@id/item_price"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_description"
+            android:hint="Description"
+            android:inputType="text"
+            android:layout_below="@id/item_category"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/item_description"
+            android:text="Save"
+            android:layout_marginTop="50dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
